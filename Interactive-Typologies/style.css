@@ -1,0 +1,82 @@
+
+
+h1 {
+    position : relative;
+    font-family: juniper-std,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+font-size: 550%;
+    letter-spacing: 10px;
+    font-variant: small-caps;
+    top: 30px;
+    color: rgb(255, 255, 255);
+    
+    border-style: none;
+    
+}
+
+ h2 {
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size:  100%;
+     font-weight: lighter;
+     color: whitesmoke;
+     
+     letter-spacing: 5px;
+     margin: 2em;
+     padding: 4em;
+     animation-name: changecolorstar;
+     animation-duration: 8s;
+     animation-iteration-count: infinite;
+     animation-direction: alternate;
+ }
+ @keyframes changecolorstar {
+     0% {
+         color:#fca247;
+       }
+       25% {
+         color: #fcaba7;
+       }
+       50% {
+         color: #fffbd6;
+       }
+       75% {
+         color:#a7ebfc;
+       }
+       100% {
+         color: #d791f2;
+       }
+     }
+ 
+
+body {
+ background: #161142;
+ text-align: center;
+ 
+  
+}
+.button {
+  background-color: transparent;
+  border: 4px white;
+  border-style: groove;
+  color: white;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-style: oblique;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  padding: 1em;
+ }
+ 
+ .demo {
+ 
+ padding : 4em;
+ }
+
+myCanvas{
+  border-style: none;
+}
+
+
+
